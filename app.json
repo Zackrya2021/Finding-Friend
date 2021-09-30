@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Find Friend",
+    "slug": "findfriend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "notification": {
+      "icon":"./assets/notification-icon.png",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon":"./assets/icon-ios.png",
+      "bundleIdentifier":"com.samiwarraich.findfriend",
+      "supportsTablet": true,
+      "config":{
+        "googleMapsApiKey":"AIzaSyDvWvCYsAdNfOQCVr5H0a_MZIROGIqAoOE"
+      }
+    },
+    "android":{
+      "package":"com.samiwarraich.findfriend",
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi":true,
+      "config":{
+        "googleMaps":{
+          "apiKey":"AIzaSyDvWvCYsAdNfOQCVr5H0a_MZIROGIqAoOE"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+    
+  }
+}
